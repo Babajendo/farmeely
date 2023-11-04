@@ -5,6 +5,7 @@ const mongoose = require('mongoose')
 const connectDB = require('./config/db') 
 const Dispatch = require("./models/dispatch");
 const dispatchSkema = require("./validations/dispatch");
+const router = require('./routes/dispatch')
 
 
 const app = express()
